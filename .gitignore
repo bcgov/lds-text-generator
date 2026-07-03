@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# uv: uv.lock IS committed — this tool is deployed to desktops via setup.bat,
+# so installs must be reproducible.
+
+# Test / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets / environment (BCGW credentials NEVER committed)
+.env
+*.env
+secrets.toml
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data / exports
+*.gdb/
+exports/
+scratch/
+
+# Local development documentation (plans, rules, working notes, instruction
+# documents). Deliberately untracked: kept in the owner's local clone only,
+# not shared in the repository. NOTE: untracked means no git history either —
+# keep a backup (see README "Where to read next").
+docs/

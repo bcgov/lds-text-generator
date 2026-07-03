@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "tenure_id": "SAMPLE-MULTI",
+  "source_type": "intrid_sid",
+  "generated_at": null,
+  "generator_version": null,
+  "tenure_area_ha": 120.0,
+  "area_method": "TENURE_AREA_IN_HECTARES (Tantalis attribute)",
+  "oracle_sdo_tolerance": null,
+  "parcels": [
+    {
+      "source_legal_description": "Section 5, Range 7, Seymour District",
+      "parsed_components": null,
+      "parcel_type": "Primary",
+      "land_district": "Seymour District",
+      "overlap_area_ha": 60.0,
+      "parcel_area_ha": 60.0,
+      "coverage_ratio": 1.0,
+      "whole_part_flag": "whole",
+      "text_source": "tantalis_pin",
+      "provisional": false,
+      "pin": null,
+      "pid": null,
+      "confidence": null,
+      "flags": []
+    },
+    {
+      "source_legal_description": "District Lot 67E&N, Chemainus District",
+      "parsed_components": null,
+      "parcel_type": "Primary",
+      "land_district": "Chemainus District",
+      "overlap_area_ha": 60.0,
+      "parcel_area_ha": 60.0,
+      "coverage_ratio": 1.0,
+      "whole_part_flag": "whole",
+      "text_source": "tantalis_pin",
+      "provisional": false,
+      "pin": null,
+      "pid": null,
+      "confidence": null,
+      "flags": []
+    }
+  ],
+  "unsurveyed_remainders": [],
+  "out_of_scope_flags": [],
+  "data_maintenance_flags": [],
+  "validation_messages": []
+}

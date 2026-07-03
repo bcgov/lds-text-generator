@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "tenure_id": "SAMPLE-SINGLE",
+  "source_type": "intrid_sid",
+  "generated_at": null,
+  "generator_version": null,
+  "tenure_area_ha": 202.53,
+  "area_method": "TENURE_AREA_IN_HECTARES (Tantalis attribute)",
+  "oracle_sdo_tolerance": 0.005,
+  "parcels": [
+    {
+      "source_legal_description": "District Lot 526S",
+      "parsed_components": null,
+      "parcel_type": "Primary",
+      "land_district": "Similkameen Division Yale District",
+      "overlap_area_ha": 50.0,
+      "parcel_area_ha": 50.0,
+      "coverage_ratio": 1.0,
+      "whole_part_flag": "whole",
+      "text_source": "tantalis_pin",
+      "provisional": false,
+      "pin": "PIN-526S",
+      "pid": null,
+      "confidence": null,
+      "flags": []
+    },
+    {
+      "source_legal_description": "District Lot 525S",
+      "parsed_components": null,
+      "parcel_type": "Primary",
+      "land_district": "Similkameen Division Yale District",
+      "overlap_area_ha": 20.0,
+      "parcel_area_ha": 80.0,
+      "coverage_ratio": 0.25,
+      "whole_part_flag": "part",
+      "text_source": "tantalis_pin",
+      "provisional": false,
+      "pin": "PIN-525S",
+      "pid": null,
+      "confidence": null,
+      "flags": []
+    }
+  ],
+  "unsurveyed_remainders": [],
+  "out_of_scope_flags": [],
+  "data_maintenance_flags": [],
+  "validation_messages": []
+}

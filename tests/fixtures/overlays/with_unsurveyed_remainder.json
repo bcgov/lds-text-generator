@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "tenure_id": "SAMPLE-UNSURVEYED",
+  "source_type": "submitted_geometry",
+  "generated_at": null,
+  "generator_version": null,
+  "tenure_area_ha": 0.0225,
+  "area_method": "SDO_GEOM.SDO_AREA, EPSG:3005",
+  "oracle_sdo_tolerance": null,
+  "parcels": [],
+  "unsurveyed_remainders": [
+    {
+      "area_ha": 0.0225,
+      "land_district": "Kamloops Division Yale District",
+      "remainder_type": "upland",
+      "candidate_features": [
+        {
+          "name": "South Forge Mountain",
+          "feature_type": "Mountain",
+          "distance_m": 120.0,
+          "source_dataset": "GNS_GEOGRAPHICAL_NAMES_SP",
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "out_of_scope_flags": [],
+  "data_maintenance_flags": [],
+  "validation_messages": []
+}

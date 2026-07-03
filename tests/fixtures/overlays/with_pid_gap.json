@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "tenure_id": "SAMPLE-PIDGAP",
+  "source_type": "intrid_sid",
+  "generated_at": null,
+  "generator_version": null,
+  "tenure_area_ha": 10.0,
+  "area_method": "TENURE_AREA_IN_HECTARES (Tantalis attribute)",
+  "oracle_sdo_tolerance": null,
+  "parcels": [
+    {
+      "source_legal_description": "District Lot 100, Lillooet District",
+      "parsed_components": null,
+      "parcel_type": "Primary",
+      "land_district": "Lillooet District",
+      "overlap_area_ha": 9.0,
+      "parcel_area_ha": 9.0,
+      "coverage_ratio": 1.0,
+      "whole_part_flag": "whole",
+      "text_source": "tantalis_pin",
+      "provisional": false,
+      "pin": "PIN-100",
+      "pid": null,
+      "confidence": null,
+      "flags": []
+    },
+    {
+      "source_legal_description": "Lot 5, Plan 1234, Lillooet District",
+      "parsed_components": null,
+      "parcel_type": null,
+      "land_district": "Lillooet District",
+      "overlap_area_ha": 1.0,
+      "parcel_area_ha": 1.0,
+      "coverage_ratio": 1.0,
+      "whole_part_flag": "whole",
+      "text_source": "pmbc_pid_fallback",
+      "provisional": true,
+      "pin": null,
+      "pid": "PID-000-111-222",
+      "confidence": null,
+      "flags": [
+        "PID-derived, provisional pending Tantalis survey parcel"
+      ]
+    }
+  ],
+  "unsurveyed_remainders": [],
+  "out_of_scope_flags": [],
+  "data_maintenance_flags": [
+    {
+      "pid": "PID-000-111-222",
+      "area_ha": 1.0,
+      "detected_by": "remainder_overlay",
+      "note": "Provisional PMBC/PID text used; regenerate from PIN once the survey parcel exists."
+    }
+  ],
+  "validation_messages": []
+}

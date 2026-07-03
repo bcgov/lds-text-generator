@@ -1,0 +1,17 @@
+{
+  "_comment": "Seed golden fixture. The DL 526S canonical example. Captured fixtures land in core/ and stretch/; test_engine_golden.py auto-discovers them.",
+  "overlap": {
+    "tenure_id": "EXAMPLE-526S",
+    "source_type": "intrid_sid",
+    "tenure_area_ha": 202.53,
+    "area_method": "TENURE_AREA_IN_HECTARES (Tantalis attribute)",
+    "parcels": [
+      {"source_legal_description": "District Lot 526S", "parcel_type": "Primary", "land_district": "Similkameen Division Yale District", "overlap_area_ha": 50.0, "parcel_area_ha": 50.0, "coverage_ratio": 1.0, "whole_part_flag": "whole", "text_source": "tantalis_pin"},
+      {"source_legal_description": "District Lot 525S", "parcel_type": "Primary", "land_district": "Similkameen Division Yale District", "overlap_area_ha": 20.0, "parcel_area_ha": 80.0, "coverage_ratio": 0.25, "whole_part_flag": "part", "text_source": "tantalis_pin"},
+      {"source_legal_description": "District Lot 527S", "parcel_type": "Primary", "land_district": "Similkameen Division Yale District", "overlap_area_ha": 30.0, "parcel_area_ha": 90.0, "coverage_ratio": 0.33, "whole_part_flag": "part", "text_source": "tantalis_pin"},
+      {"source_legal_description": "District Lot 2346S", "parcel_type": "Primary", "land_district": "Similkameen Division Yale District", "overlap_area_ha": 40.0, "parcel_area_ha": 120.0, "coverage_ratio": 0.33, "whole_part_flag": "part", "text_source": "tantalis_pin"},
+      {"source_legal_description": "District Lot 2347S", "parcel_type": "Primary", "land_district": "Similkameen Division Yale District", "overlap_area_ha": 62.53, "parcel_area_ha": 150.0, "coverage_ratio": 0.42, "whole_part_flag": "part", "text_source": "tantalis_pin"}
+    ]
+  },
+  "expected_description": "District Lot 526S and those parts of District Lots 525S, 527S, 2346S, 2347S, all of Similkameen Division Yale District, containing 202.53 hectares, more or less."
+}

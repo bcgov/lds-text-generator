@@ -1,0 +1,14 @@
+{
+  "_comment": "Seed golden fixture. Unsurveyed upland vicinity case (mountain). Area stays at 0.0225 per the small-area rounding rule (docs/rules.md): rounding to 2 decimals would misstate a tiny tenure by 11%.",
+  "overlap": {
+    "tenure_id": "EXAMPLE-SOUTHFORGE",
+    "source_type": "submitted_geometry",
+    "tenure_area_ha": 0.0225,
+    "area_method": "SDO_GEOM.SDO_AREA, EPSG:3005",
+    "unsurveyed_remainders": [
+      {"area_ha": 0.0225, "land_district": "Kamloops Division Yale District", "remainder_type": "upland", "candidate_features": [{"name": "South Forge Mountain", "feature_type": "Mountain", "distance_m": 120.0, "source_dataset": "GNS_GEOGRAPHICAL_NAMES_SP", "selected": true}]}
+    ]
+  },
+  "source_description": "All that tract of land in the vicinity of South Forge Mountain, Kamloops Division of Yale District and containing 0.0225 hectares, more or less",
+  "expected_description": "That parcel or tract of unsurveyed Crown land in the vicinity of South Forge Mountain, Kamloops Division Yale District, containing 0.0225 hectares, more or less."
+}
